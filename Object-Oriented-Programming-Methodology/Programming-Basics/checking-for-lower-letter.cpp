@@ -16,13 +16,6 @@ int main(void)
 	char character = '0';					//Defining Character
 	cout << "Please enter the character: ";
 	cin >> character;							//Taking input character
-	if(islower(character))				//Checking for lower letter
-	{
-		cout << "0\n";
-	}
-	else
-	{
-		cout << "1\n";
-	}
+	cout << "The value is " << islower(character) << '.';
 	return 0;
 }
